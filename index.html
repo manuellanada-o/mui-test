@@ -12,12 +12,14 @@
   <script src="https://unpkg.com/@material-ui/core@latest/umd/material-ui.development.js"></script>
 
   <script type="text/babel">
-    const { Button } = MaterialUI; // Components are available in MaterialUI object
+    // const { Button } = MaterialUI; // Components are available in MaterialUI object
+    const { SignIn } = './SignIn'
     
     ReactDOM.render(
-      <Button variant="contained" color="primary">
-         Hello World!
-      </Button>, 
+      // <Button variant="contained" color="primary">
+      //    Hello World!
+      // </Button>,
+      <SignIn/>,
       document.getElementById("root") 
     );
   </script>
